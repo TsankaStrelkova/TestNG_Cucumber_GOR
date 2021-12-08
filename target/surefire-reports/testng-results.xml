@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="86368" started-at="2021-12-08T16:23:49Z" finished-at="2021-12-08T16:25:15Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@46d56d67]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="86368" started-at="2021-12-08T16:23:49Z" finished-at="2021-12-08T16:25:15Z">
+      <class name="runners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.TestRunner@46d56d67]" name="setUpClass" is-config="true" duration-ms="738" started-at="2021-12-08T18:23:49Z" finished-at="2021-12-08T18:23:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@46d56d67]" name="runScenario" duration-ms="9441" started-at="2021-12-08T18:23:49Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-08T18:23:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home Page - Go To Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@46d56d67]" name="runScenario" duration-ms="4795" started-at="2021-12-08T18:23:59Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-08T18:24:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home Page - Check cookies"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@46d56d67]" name="runScenario" duration-ms="12556" started-at="2021-12-08T18:24:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-08T18:24:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page - Check Search Bar - music"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@46d56d67]" name="runScenario" duration-ms="5459" started-at="2021-12-08T18:24:16Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-08T18:24:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page - Check Search Bar - book"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@46d56d67]" name="runScenario" duration-ms="19252" started-at="2021-12-08T18:24:22Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-08T18:24:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home Page - Search Unavailable Product Name - kkpttt"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@46d56d67]" name="runScenario" duration-ms="5046" started-at="2021-12-08T18:24:41Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-08T18:24:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home Page - Check Footer Link - faq"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@46d56d67]" name="runScenario" duration-ms="4499" started-at="2021-12-08T18:24:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-08T18:24:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home Page - Check Footer Link - privacy"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@46d56d67]" name="runScenario" duration-ms="4271" started-at="2021-12-08T18:24:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-08T18:24:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home Page - Check Footer Link - safety"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@46d56d67]" name="runScenario" duration-ms="4578" started-at="2021-12-08T18:24:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-08T18:24:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home Page - Check Footer Link - terms"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@46d56d67]" name="runScenario" duration-ms="4524" started-at="2021-12-08T18:24:59Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-08T18:25:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home Page - Check Footer Link - about"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@46d56d67]" name="runScenario" duration-ms="5028" started-at="2021-12-08T18:25:04Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-08T18:25:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home Page - Check Footer Link - jobs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@46d56d67]" name="runScenario" duration-ms="4562" started-at="2021-12-08T18:25:09Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-08T18:25:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home Page - Check Footer Link - imprint"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.TestRunner@46d56d67]" name="tearDownClass" is-config="true" duration-ms="1606" started-at="2021-12-08T18:25:13Z" finished-at="2021-12-08T18:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
